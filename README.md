@@ -5,12 +5,12 @@ This project is based on Spring boot application
 #### Technology used
 - Java 8 : programming language 
 - Spring boot : Web application 
-- H2 : In-Memory Database
+- Microsoft Azure :  Database
 - Maven : Building project
 - Swagger : RESTful Documentation
 
 #### Web Application configuration 
-- Web Application is running on port `9119`
+- Web Application is running on port `8080`
 - You can change the configuration in `application.properties`
  
 #### Steps to run the project
@@ -29,7 +29,7 @@ Maven will install all the dependencies and followed by run the application
 
 > To test the application
 
-    http://localhost:9119/swagger-ui.html
+    http://localhost:8080/swagger-ui/index.html
     
     
 #### Architectural points and Terminologies used in the project
@@ -53,7 +53,7 @@ Backend consists RESTful APIs all starts with `/api/v1` because of following rea
 
 Swagger is already integrated and can be used for using API instead of curl. 
 
-    http://localhost:9119/swagger-ui.html
+    http://localhost:8080/swagger-ui/index.html
 
 > Comments in code 
 
