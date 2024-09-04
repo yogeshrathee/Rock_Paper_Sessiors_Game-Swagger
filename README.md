@@ -17,7 +17,7 @@ This project is based on Spring boot application
 
 > Prerequisite
 - Maven 
-- Java 8 or higher 
+- Java 17 or higher 
 
 > Start the application
 
