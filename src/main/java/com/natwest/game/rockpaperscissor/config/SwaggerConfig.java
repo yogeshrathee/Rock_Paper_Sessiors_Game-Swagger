@@ -16,7 +16,7 @@ public class SwaggerConfig {
                         .title("GAME: ROCK, PAPER, and SCISSORS")
                         .description("RESTful APIs")
                         .contact(new Contact()
-                                .name("Developer")
+                                .name("Yogesh Rathee")
                                 .url("https://yogeshrathee.github.io/combined-portflio/")));
     }
 }
