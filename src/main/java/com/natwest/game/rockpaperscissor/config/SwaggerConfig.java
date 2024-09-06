@@ -14,7 +14,6 @@ public class SwaggerConfig {
         return new OpenAPI()
                 .info(new Info()
                         .title("GAME: ROCK, PAPER, and SCISSORS")
-                        .version("0.0.1")
                         .description("RESTful APIs")
                         .contact(new Contact()
                                 .name("Developer")
